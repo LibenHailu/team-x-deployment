@@ -5,18 +5,18 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/Team-x-AAIT/Freelancing-website/delivery/http/handler"
-	prrp "github.com/Team-x-AAIT/Freelancing-website/project/repository"
-	prsr "github.com/Team-x-AAIT/Freelancing-website/project/service"
+	"github.com/LibenHailu/team-x-deployment/delivery/http/handler"
+	prrp "github.com/LibenHailu/team-x-deployment/project/repository"
+	prsr "github.com/LibenHailu/team-x-deployment/project/service"
 
-	urrp "github.com/Team-x-AAIT/Freelancing-website/user/repository"
-	ursr "github.com/Team-x-AAIT/Freelancing-website/user/service"
+	urrp "github.com/LibenHailu/team-x-deployment/user/repository"
+	ursr "github.com/LibenHailu/team-x-deployment/user/service"
 
-	aprp "github.com/Team-x-AAIT/Freelancing-website/application/repository"
-	apsr "github.com/Team-x-AAIT/Freelancing-website/application/service"
+	aprp "github.com/LibenHailu/team-x-deployment/application/repository"
+	apsr "github.com/LibenHailu/team-x-deployment/application/service"
 
-	adrp "github.com/Team-x-AAIT/Freelancing-website/admin/repository"
-	adsr "github.com/Team-x-AAIT/Freelancing-website/admin/service"
+	adrp "github.com/LibenHailu/team-x-deployment/admin/repository"
+	adsr "github.com/LibenHailu/team-x-deployment/admin/service"
 
 	_ "github.com/go-sql-driver/mysql"
 )
